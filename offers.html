@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foodie Express - Offers</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8f0;
+    }
+
+    header {
+      background: #ff5722;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    nav {
+      background: #222;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .offers {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .offer-card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .offer-card h3 {
+      color: #ff5722;
+      margin-bottom: 10px;
+    }
+
+    .coupon {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 6px 12px;
+      border: 2px dashed #ff5722;
+      border-radius: 6px;
+      font-weight: bold;
+      color: #ff5722;
+    }
+
+    .cta {
+      text-align: center;
+      margin: 20px 0 40px;
+    }
+
+    .cta a {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #ff5722;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Foodie Express</h1>
+    <p>Special Offers & Deals</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="offers.html">Offers</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="offers">
+    <div class="offer-card">
+      <h3>Flat 20% Off</h3>
+      <p>Save on your first order above ₹299.</p>
+      <div class="coupon">WELCOME20</div>
+    </div>
+    <div class="offer-card">
+      <h3>Free Delivery</h3>
+      <p>Enjoy free delivery on orders above ₹499.</p>
+      <div class="coupon">FREEDEL</div>
+    </div>
+    <div class="offer-card">
+      <h3>Combo Saver</h3>
+      <p>Get extra savings on family meal combos.</p>
+      <div class="coupon">COMBOSAVE</div>
+    </div>
+    <div class="offer-card">
+      <h3>Weekend Treat</h3>
+      <p>Extra 15% off every Saturday and Sunday.</p>
+      <div class="coupon">WEEKEND15</div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <a href="menu.html">Explore the Menu</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Foodie Express | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
